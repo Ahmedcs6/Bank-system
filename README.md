@@ -9,15 +9,14 @@ this project required from mr Mohamed Abuhdhoud Course 7 but i built it with oop
 ```
 .
 ├── CMakeLists.txt             # CMake configuration file
-├── db.txt                     # Database file storing clients info
+├── build
+│   ├── clients.txt            # Database file storing clients info
+│   ├── mainMenu.txt           # Text layout for main menu
+│   └── transactionsMenu.txt   # Text layout for transactions menu
 ├── include
 │   └── include.h              # Header file
-├── mainMenu.txt               # Text layout for main menu
-├── src
-│   └── main.cpp               # Main application source code
-└── transactionsMenu.txt       # Text layout for transactions menu
-```
-
+└── src
+    └── main.cpp               # Main application source code
 ---
 
 ## Build Instructions (CMake)
