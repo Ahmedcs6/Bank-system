@@ -12,7 +12,7 @@
 #include <iomanip>
 #include <cstring>
 using namespace std;
-const string path = "db.txt";
+const string clientsPath = "clients.txt";
 void trim(string &s);
 void spilitLine(string &s, vector<string> &words, string seperator = " ");
 class Client 
@@ -90,7 +90,7 @@ private:
   static void saveClients(ios_base::openmode mode = ios::out)
   {
     ofstream file;
-    file.open(path, mode);
+    file.open(clientsPath, mode);
     file.close();
     for(Client &client : m_clients)
     {
@@ -182,7 +182,7 @@ public:
   static void sync()
   {
     m_clients.clear();
-    ifstream file(path);
+    ifstream file(clientsPath);
     if(!file)
     {
       cerr << "error in file opening"<<endl;
@@ -287,7 +287,7 @@ public:
   static void saveClintsInFile()
   {
     ofstream file;
-    file.open(path, ios::out);
+    file.open(clientsPath, ios::out);
     string s;
     for(Client &client : m_clients)
     {
