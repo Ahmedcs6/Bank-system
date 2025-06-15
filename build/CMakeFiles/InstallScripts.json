@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ahmed/projects/Bank/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
