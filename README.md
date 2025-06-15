@@ -29,14 +29,11 @@ this project required from mr Mohamed Abuhdhoud Course 7 but i built it with oop
 ### Steps to build:
 
 ```bash
-# Step 1: Create a build directory
-mkdir build
+# Step 1: Generate build files with CMake
 cd build
-
-# Step 2: Generate build files with CMake
 cmake ..
 
-# Step 3: Compile the project
+# Step 4: Compile the project
 make
 ```
 
