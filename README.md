@@ -49,7 +49,7 @@ After building the project:
 ```
 
  **Make sure these files are in the same directory when running:**
-- `db.txt`
+- `clients.txt`
 - `mainMenu.txt`
 - `transactionsMenu.txt`
 
