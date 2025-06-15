@@ -1,3 +1,0 @@
-/home/ahmed/projects/Bank/build/CMakeFiles/Bank.dir
-/home/ahmed/projects/Bank/build/CMakeFiles/edit_cache.dir
-/home/ahmed/projects/Bank/build/CMakeFiles/rebuild_cache.dir
